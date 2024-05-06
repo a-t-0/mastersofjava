@@ -136,7 +136,7 @@ test {
     testLogging {
         // If a test asserts an error is thrown, the response of the code, e.g. "don't use --something
         // for this CLI", is shown in the standardStreams. You do not want to see this every build.
-        showStandardStreams = false
+        showStandardStreams = true
     }
 }
 
